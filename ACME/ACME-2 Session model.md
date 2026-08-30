@@ -2,14 +2,14 @@
 key: ACME-2
 title: Session model
 type: story
-status: Backlog
-status_category: todo
+status: In review
+status_category: doing
 priority: normal
 assignee:
 parent: ACME-1
 labels: []
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T18:37:28Z
+updated: 2026-08-30T19:04:01Z
 aliases: []
 ---
 
