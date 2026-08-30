@@ -6,7 +6,7 @@ status: In progress
 status_category: doing
 priority: urgent
 assignee: dana
-labels: [auth, regression]
+labels: ["[[auth]]", "[[regression]]"]
 created: 2026-08-30T18:37:28Z
 updated: 2026-08-30T19:04:01Z
 aliases: []

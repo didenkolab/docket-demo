@@ -6,7 +6,7 @@ status: Done
 status_category: done
 priority: normal
 assignee: agent/claude
-labels: [import, tooling]
+labels: ["[[import]]", "[[tooling]]"]
 created: 2026-08-30T18:37:28Z
 updated: 2026-08-30T19:15:50Z
 aliases: []

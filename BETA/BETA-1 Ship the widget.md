@@ -6,7 +6,7 @@ status: Ready
 status_category: todo
 priority: urgent
 assignee: sam
-labels: [widget]
+labels: ["[[widget]]"]
 created: 2026-08-30T18:37:28Z
 updated: 2026-08-30T19:15:50Z
 aliases: []

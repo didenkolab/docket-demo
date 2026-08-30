@@ -6,7 +6,7 @@ status: Backlog
 status_category: todo
 priority: low
 assignee:
-labels: [tooling]
+labels: ["[[tooling]]"]
 created: 2026-08-30T19:28:40Z
 updated: 2026-08-30T19:28:40Z
 aliases: []
