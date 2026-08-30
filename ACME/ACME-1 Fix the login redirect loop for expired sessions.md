@@ -8,8 +8,9 @@ priority: urgent
 assignee: dana
 labels: ["[[auth]]", "[[regression]]"]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:04:01Z
+updated: 2026-08-30T22:57:54Z
 aliases: []
+tags: [area/auth, needs-review]
 ---
 
 The redirect loops when the session cookie is rejected but the
