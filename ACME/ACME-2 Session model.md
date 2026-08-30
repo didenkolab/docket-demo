@@ -5,11 +5,11 @@ type: story
 status: In review
 status_category: doing
 priority: normal
-assignee:
+assignee: agent/claude
 parent: ACME-1
-labels: []
+labels: [auth, design]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:04:01Z
+updated: 2026-08-30T19:12:46Z
 aliases: []
 ---
 
