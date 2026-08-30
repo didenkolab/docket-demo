@@ -9,14 +9,20 @@ assignee: agent/claude
 parent: ACME-1
 labels: [auth, design]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:12:46Z
+updated: 2026-08-30T19:15:50Z
 aliases: []
 ---
 
-One paragraph on what needs to happen and why. Link to the pages that explain the context.
+The session is currently a cookie and a hope: three places construct one, and each sets a
+slightly different expiry. [[ACME-1 Fix the login redirect loop for expired sessions]] is the
+second bug this month that comes out of that.
+
+One type, constructed in one place, with the expiry as a field rather than a convention.
 
 ## Acceptance
 
-- [ ] What must be true for this to be done.
+- [ ] A session is created in exactly one function.
+- [ ] Expiry is a field on the type, not a duration recomputed per call site.
+- [ ] The redirect path reads the session rather than reconstructing it.
 
 ## Comments
