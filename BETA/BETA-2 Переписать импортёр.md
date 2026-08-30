@@ -8,8 +8,9 @@ priority: normal
 assignee: agent/claude
 labels: ["[[import]]", "[[tooling]]"]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:15:50Z
+updated: 2026-08-30T22:57:54Z
 aliases: []
+tags: [area/import, needs-review]
 ---
 
 Импортёр писался под один формат выгрузки и с тех пор оброс ветвлениями под ещё три.
