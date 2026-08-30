@@ -18,6 +18,7 @@ views:
     name: Board
     groupBy:
       property: note.status
+      direction: ASC
     order:
       - note.title
       - note.assignee
