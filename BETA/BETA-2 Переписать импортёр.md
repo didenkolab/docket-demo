@@ -2,13 +2,13 @@
 key: BETA-2
 title: Переписать импортёр
 type: epic
-status: Backlog
-status_category: todo
+status: Done
+status_category: done
 priority: normal
 assignee:
 labels: []
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T18:37:28Z
+updated: 2026-08-30T19:04:01Z
 aliases: []
 ---
 
