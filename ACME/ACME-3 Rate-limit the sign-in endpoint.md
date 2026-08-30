@@ -8,8 +8,10 @@ priority: high
 assignee: sam
 labels: ["[[auth]]"]
 created: 2026-08-30T19:28:40Z
-updated: 2026-08-30T19:28:40Z
+updated: 2026-08-30T23:29:46Z
 aliases: []
+blocked_by: ["[[ACME-2 Session model]]"]
+relates: ["[[ACME-1 Fix the login redirect loop for expired sessions]]"]
 ---
 
 One paragraph on what needs to happen and why. Link to the pages that explain the context.
