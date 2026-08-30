@@ -9,9 +9,10 @@ assignee: agent/claude
 parent: "[[ACME-1 Fix the login redirect loop for expired sessions]]"
 labels: ["[[auth]]", "[[design]]"]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T22:57:54Z
+updated: 2026-08-30T23:29:47Z
 aliases: []
 tags: [area/auth]
+blocks: ["[[ACME-3 Rate-limit the sign-in endpoint]]"]
 ---
 
 The session is currently a cookie and a hope: three places construct one, and each sets a
