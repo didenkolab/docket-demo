@@ -5,10 +5,10 @@ type: task
 status: Ready
 status_category: todo
 priority: urgent
-assignee: dana
-labels: []
+assignee: sam
+labels: [widget]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:04:01Z
+updated: 2026-08-30T19:12:46Z
 aliases: []
 ---
 
