@@ -2,13 +2,13 @@
 key: ACME-1
 title: Fix the login redirect loop for expired sessions
 type: bug
-status: Backlog
-status_category: todo
+status: In progress
+status_category: doing
 priority: urgent
 assignee: dana
 labels: [auth, regression]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T18:41:50Z
+updated: 2026-08-30T19:04:01Z
 aliases: []
 ---
 
@@ -24,3 +24,5 @@ See [[ACME-2 Session model]].
 
 **agent/claude · 2026-08-30 15:10** — Narrowed it to the session middleware. Fix is one line,
 test is not.
+
+**Claude · 2026-08-30 19:04** — Reproduced on staging: the cookie is refreshed after the redirect, not before.
