@@ -8,14 +8,17 @@ priority: urgent
 assignee: sam
 labels: [widget]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:12:46Z
+updated: 2026-08-30T19:15:50Z
 aliases: []
 ---
 
-One paragraph on what needs to happen and why. Link to the pages that explain the context.
+The widget renders and the tests pass, and nobody outside the team has ever loaded it. Ship it
+behind a flag to a handful of accounts, watch it for a week, then decide.
 
 ## Acceptance
 
-- [ ] What must be true for this to be done.
+- [ ] A flag that turns the widget on per account.
+- [ ] The flag is off by default, including for new accounts.
+- [ ] A week of use with no errors, before the flag comes out.
 
 ## Comments
