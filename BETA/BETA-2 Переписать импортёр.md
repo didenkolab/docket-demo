@@ -5,10 +5,10 @@ type: epic
 status: Done
 status_category: done
 priority: normal
-assignee:
-labels: []
+assignee: agent/claude
+labels: [import, tooling]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:04:01Z
+updated: 2026-08-30T19:12:46Z
 aliases: []
 ---
 
