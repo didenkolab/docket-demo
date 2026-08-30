@@ -1,16 +1,22 @@
 # Acme
 
-An [docket](https://github.com/vadymdidenkolab/docket) vault: a task board and a knowledge base
-kept as Markdown files in git.
+A demonstration [docket](https://github.com/vadymdidenkolab/docket) vault: two projects, a board,
+a backlog and a wiki, kept as Markdown files in git.
 
-Clone it, open the folder in Obsidian, and you get a board, a backlog and a wiki. There is
-nothing to install and nothing to run — tasks and pages are plain Markdown with YAML
-frontmatter, and git is the history.
+Clone it, open the folder in Obsidian, and it is a tracker. There is nothing to install and
+nothing to run — tasks and pages are plain Markdown with YAML frontmatter, and git is the
+history. This is the whole product from one side; the binary is the other side of the same
+files.
+
+```bash
+git clone https://github.com/vadymdidenkolab/docket-demo.git
+open -a Obsidia docket-demo          # or: docket serve, for a board in a browser
+```
 
 | Path | What |
 |---|---|
 | `docket.yaml` | The projects this vault holds and the vocabulary they share |
-| `ACME/` | One folder per project. `ACME-12 Its title.md` is the task `ACME-12` |
+| `ACME/`, `BETA/` | One folder per project. `ACME-12 Its title.md` is the task `ACME-12` |
 | `docs/` | Knowledge base — a free tree of wiki pages |
 | `boards/` | Obsidian Bases views: board, backlog, my tasks |
 | `templates/` | Templates for a new task and a new page |
