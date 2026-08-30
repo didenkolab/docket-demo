@@ -8,8 +8,9 @@ priority: urgent
 assignee: sam
 labels: ["[[widget]]"]
 created: 2026-08-30T18:37:28Z
-updated: 2026-08-30T19:15:50Z
+updated: 2026-08-30T23:29:47Z
 aliases: []
+blocked_by: ["[[BETA-2 Переписать импортёр]]"]
 ---
 
 The widget renders and the tests pass, and nobody outside the team has ever loaded it. Ship it
