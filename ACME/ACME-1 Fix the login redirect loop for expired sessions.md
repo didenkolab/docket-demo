@@ -24,5 +24,3 @@ See [[ACME-2 Session model]].
 
 **agent/claude · 2026-08-30 15:10** — Narrowed it to the session middleware. Fix is one line,
 test is not.
-
-**Claude · 2026-08-30 19:04** — Reproduced on staging: the cookie is refreshed after the redirect, not before.
