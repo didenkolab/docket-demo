@@ -5,6 +5,7 @@ filters:
       - file.inFolder("ACME")
       - file.inFolder("BETA")
     - 'note.status_category == "todo"'
+    - 'note.type != "subtask"'
 properties:
   note.key:
     displayName: Key

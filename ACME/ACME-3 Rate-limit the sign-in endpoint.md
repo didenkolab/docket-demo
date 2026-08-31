@@ -2,7 +2,7 @@
 key: ACME-3
 title: Rate-limit the sign-in endpoint
 type: task
-status: Backlog
+status: Ready
 status_category: todo
 priority: high
 assignee: sam
