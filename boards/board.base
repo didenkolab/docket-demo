@@ -6,7 +6,11 @@ filters:
       - file.inFolder("ACME")
       - file.inFolder("BETA")
     - 'note.status_category != "done"'
+formulas:
+  stage: 'if(note.status == "Backlog", "1. Backlog", if(note.status == "Ready", "2. Ready", if(note.status == "In progress", "3. In progress", if(note.status == "In review", "4. In review", if(note.status == "Done", "5. Done", if(note.status == "Dropped", "6. Dropped", ""))))))'
 properties:
+  formula.stage:
+    displayName: Stage
   note.title:
     displayName: Title
   note.assignee:
@@ -19,7 +23,7 @@ views:
   - type: cards
     name: Board
     groupBy:
-      property: note.status
+      property: formula.stage
       direction: ASC
     order:
       - note.title
