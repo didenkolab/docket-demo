@@ -11,7 +11,7 @@ labels: ["[[auth]]", "[[design]]"]
 created: 2026-08-30T18:37:28Z
 updated: 2026-08-31T00:13:09Z
 aliases: []
-tags: [area/auth]
+
 blocks: ["[[ACME-3 Rate-limit the sign-in endpoint]]"]
 ---
 

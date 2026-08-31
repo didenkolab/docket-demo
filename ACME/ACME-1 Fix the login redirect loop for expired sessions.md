@@ -10,7 +10,7 @@ labels: ["[[auth]]", "[[regression]]"]
 created: 2026-08-30T18:37:28Z
 updated: 2026-08-31T00:13:09Z
 aliases: []
-tags: [area/auth, needs-review]
+tags: [needs-review]
 parent: "[[ACME-5 Sessions that survive a redirect]]"
 ---
 

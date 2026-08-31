@@ -10,7 +10,6 @@ labels: ["[[auth]]"]
 created: 2026-08-31T00:13:09Z
 updated: 2026-08-31T00:13:09Z
 aliases: []
-tags: [area/auth]
 ---
 
 Everything about a session outliving the redirect that expires it. Holds the bug people hit and the model that makes it not happen again.
