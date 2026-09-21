@@ -1,6 +1,6 @@
 # Acme
 
-A demonstration [docket](https://github.com/vadymdidenkolab/docket) vault: two projects, a board,
+A demonstration [docket](https://github.com/didenkolab/docket) vault: two projects, a board,
 a backlog and a wiki, kept as Markdown files in git.
 
 Clone it, open the folder in Obsidian, and it is a tracker. There is nothing to install and
@@ -11,7 +11,7 @@ files. Everything in here is invented: two made-up projects, seven tasks, a page
 ## Quick start
 
 ```bash
-git clone https://github.com/vadymdidenkolab/docket-demo.git
+git clone https://github.com/didenkolab/docket-demo.git
 open -a Obsidia docket-demo     # macOS. Elsewhere: Obsidian → Open folder as vault
 ```
 
@@ -19,7 +19,7 @@ The left pane is the file tree — `ACME/` and `BETA/` are the work, `docs/` is 
 `boards/board` for the board, `boards/backlog` for the backlog, and the graph view for how it
 all connects.
 
-Or a board in a browser, with the [docket](https://github.com/vadymdidenkolab/docket) binary:
+Or a board in a browser, with the [docket](https://github.com/didenkolab/docket) binary:
 
 ```bash
 cd docket-demo
@@ -57,7 +57,7 @@ reads them. Nothing here needs Go, Python or Docker.
 ## Install
 
 Nothing to install — this is a vault, not a program. The tool that reads it is an optional
-download; see [docket](https://github.com/vadymdidenkolab/docket).
+download; see [docket](https://github.com/didenkolab/docket).
 
 ## Usage
 
@@ -82,7 +82,7 @@ a hub joining everything that carries it. That is why the graph is worth opening
 Obsidian's backlinks pane answers questions no field was added for.
 
 The format is specified in
-[docket-board](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md).
+[docket-board](https://github.com/didenkolab/docket-board/blob/main/docs/spec/vault-format.md).
 
 ## Where things are
 
@@ -95,13 +95,13 @@ The format is specified in
 | `templates/` | Templates for a new task and a new page |
 | `AGENTS.md` | How an agent works in this vault |
 
-The family: [`docket`](https://github.com/vadymdidenkolab/docket) is the tool;
-[`docket-apps`](https://github.com/vadymdidenkolab/docket-apps) is twelve packs of vocabulary and
-files a vault can take on; [`docket-board`](https://github.com/vadymdidenkolab/docket-board) holds
+The family: [`docket`](https://github.com/didenkolab/docket) is the tool;
+[`docket-apps`](https://github.com/didenkolab/docket-apps) is twelve packs of vocabulary and
+files a vault can take on; [`docket-board`](https://github.com/didenkolab/docket-board) holds
 the specification, the decisions and the project's own board;
-[`docket-template`](https://github.com/vadymdidenkolab/docket-template) is what a new vault starts
+[`docket-template`](https://github.com/didenkolab/docket-template) is what a new vault starts
 as; `docket-showcase` is a much larger invented company's vault — three products, six people,
-twelve weeks, every app — with [`northlight`](https://github.com/vadymdidenkolab/northlight) its
+twelve weeks, every app — with [`northlight`](https://github.com/didenkolab/northlight) its
 code beside it. Only `docket-template` is public today; the rest need access.
 
 ## Contributing

@@ -3,7 +3,7 @@
 This repository is a docket vault: a task tracker and a knowledge base made of Markdown files.
 You change it with ordinary file tools. There is no API to call and no server to ask.
 
-The [vault format](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md)
+The [vault format](https://github.com/didenkolab/docket-board/blob/main/docs/spec/vault-format.md)
 is normative. This file is the short version — the rules you need in order to not corrupt the
 vault.
 
